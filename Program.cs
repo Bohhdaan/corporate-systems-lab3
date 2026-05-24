@@ -6,9 +6,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        
-        // StudentCollection
-        
+        // === StudentCollection ===
+
         Console.WriteLine("=== StudentCollection ===\n");
 
         StudentCollection collection = new StudentCollection();
@@ -48,30 +47,24 @@ class Program
         Console.WriteLine("Initial collection (short):");
         Console.WriteLine(collection.ToShortString());
 
-        // сортування по прізвищу
         collection.SortBySurname();
         Console.WriteLine("Sorted by surname:");
         Console.WriteLine(collection.ToShortString());
 
-        // сортування по даті народження
         collection.SortByBirthDate();
         Console.WriteLine("Sorted by birth date:");
         Console.WriteLine(collection.ToShortString());
 
-        // сортування по середньому балу
         collection.SortByAverageMark();
         Console.WriteLine("Sorted by average mark:");
         Console.WriteLine(collection.ToShortString());
 
-        // максимальний середній бал
         Console.WriteLine($"Max average mark: {collection.MaxAverageMark}\n");
 
-        // фільтрація — тільки Master
         Console.WriteLine("Master students:");
         foreach (Student s in collection.MasterStudents)
             Console.WriteLine(s.ToShortString() + "\n");
 
-        // групування по середньому балу
         Console.WriteLine("Students grouped by average mark:");
         foreach (var group in collection.GroupedByAverageMark())
         {
@@ -81,10 +74,9 @@ class Program
             Console.WriteLine();
         }
 
-        
-        // TestCollections
-        
-        Console.WriteLine("=== TestCollections ===\n");
+        // TestCollections: Standard vs Immutable vs Sorted 
+
+        Console.WriteLine("=== TestCollections: Standard vs Immutable vs Sorted ===\n");
 
         int n = 0;
         while (true)

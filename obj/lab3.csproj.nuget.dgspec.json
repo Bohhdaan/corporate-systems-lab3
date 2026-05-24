@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/macbookairm2/Desktop/Платформи корпоративних систем /lab3/lab3.csproj": {}
+    "/Users/macbookairm2/Desktop/Платформи корпоративних систем /lab 4/lab3.csproj": {}
   },
   "projects": {
-    "/Users/macbookairm2/Desktop/Платформи корпоративних систем /lab3/lab3.csproj": {
+    "/Users/macbookairm2/Desktop/Платформи корпоративних систем /lab 4/lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbookairm2/Desktop/Платформи корпоративних систем /lab3/lab3.csproj",
+        "projectUniqueName": "/Users/macbookairm2/Desktop/Платформи корпоративних систем /lab 4/lab3.csproj",
         "projectName": "lab3",
-        "projectPath": "/Users/macbookairm2/Desktop/Платформи корпоративних систем /lab3/lab3.csproj",
+        "projectPath": "/Users/macbookairm2/Desktop/Платформи корпоративних систем /lab 4/lab3.csproj",
         "packagesPath": "/Users/macbookairm2/.nuget/packages/",
-        "outputPath": "/Users/macbookairm2/Desktop/Платформи корпоративних систем /lab3/obj/",
+        "outputPath": "/Users/macbookairm2/Desktop/Платформи корпоративних систем /lab 4/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbookairm2/.nuget/NuGet/NuGet.Config"
